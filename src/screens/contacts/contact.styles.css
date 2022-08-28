@@ -1,0 +1,9 @@
+.contactScreenContainer {
+    height: 100vh;
+    /* background-image: url('../../../src/images/ocean-images/Deep\ Ocean\ Background.jpg'); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: darkseagreen; */
+}

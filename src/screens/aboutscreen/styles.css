@@ -1,0 +1,28 @@
+.projectScreenContainer {
+    height: 100vh;
+    /* background-image: url('../../../src/images/forest-images/Forest_landscape_generated.jpg'); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8cbad0;
+    padding-inline:20% ;
+}
+
+.AboutScreen {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Kalam', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.AboutScreen:hover {
+    box-shadow: 0 0 20px white;
+    text-shadow: 0 0 10px white;
+}
+

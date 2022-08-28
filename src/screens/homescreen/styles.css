@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.homeScreen {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.selfDetails {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imageContainer {
+    height: 50%;
+    width: 50%;
+}
+
+.name {
+    color: #040404;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+    margin-block: 10px
+}
+
+.neon {
+    text-shadow: 0 0 20px rgb(251, 251, 251), 0 0 20px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.role {
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.backgroundImage {
+    bottom: 0;
+    right: 0;
+    height: 40%;
+    width: 40%;
+    position: fixed;
+    background: url("../../images/mountains-5689938-removebg.png");
+    background-size: cover;
+}
